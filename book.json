@@ -1,3 +1,45 @@
 {
-    "plugins": ["katex"]
+    "title": "顶功·集萃2020版",
+    "author": "lanluoxiao, yyb1rd",
+    "description": "析顶功之理，赏万码之韵",
+    "language": "zh-hans",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "仓库地址": "https://github.com/lanluoxiao/ding"
+        }
+    },
+    "plugins": ["katex", "-lunr", "-search", "search-plus", "-sharing", "sharing-plus"],
+    "pluginsConfig": {
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": ["qq", "qzone", "douban", "weibo", "linkedin", "stumbleupon", "whatsapp","google"]
+        }
+    },
+    "pdf": {
+        "fontFamily": "等线, Sans Serif",
+        "margin": {
+            "top": 50,
+            "bottom": 50,
+            "left": 40,
+            "right": 40
+        },
+        "cover.jpg": ""
+    }
 }
