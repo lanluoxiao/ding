@@ -9,7 +9,14 @@
             "仓库地址": "https://github.com/lanluoxiao/ding"
         }
     },
-    "plugins": ["katex", "-lunr", "-search", "search-plus", "-sharing", "sharing-plus"],
+    "plugins": [
+        "katex@git+https://github.com/lanluoxiao/plugin-katex.git#1.1.5",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "-sharing",
+        "sharing-plus"
+    ],
     "pluginsConfig": {
         "sharing": {
             "douban": false,
