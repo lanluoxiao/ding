@@ -1,22 +1,53 @@
 # Summary
 
 - [封面](README.md)
-- [引言](introduction/README.md)
-- [定义](definition/README.md)
-- [方案设计](design/README.md)
-- 方案博览
-  - 连续顶功
-    - 一码顶
-    - 二码顶
-    - 三码顶
-    - 四码顶
-  - 混合顶功
-    - 二四顶
-    - 四二顶
-    - 二五顶
-  - 其他顶功
-    - TK并击
-- [方案实现](implementation/README.md)
-- 附录
-  - [数学结果的证明](appendix/proof.md)
-  - 汉字的信息熵
+- [前言](about/README.md) 
+- [认识顶功](basics/README.md)
+	- [案例：二码顶](basics/case.md)
+	- [符号集](basics/symbol-set.md)
+	- [顶字上屏](basics/push.md) 
+	- [顶功的上屏原理](basics/ding-push.md)
+	- [顶功的命名](basics/naming.md)
+- [信息论视角](informationism/README.md)
+	- [引言](informationism/introduction.md) 
+	- [定义](informationism/definition.md) 
+	- [方案设计](informationism/design.md)
+- [如何评价](evaluation/README.md)
+	- [评价码表](evaluation/evaluate-mabiao.md)
+	- [评价符号组](evaluation/evaluate-design.md)
+- [方案博览](collection/README.md)
+	- [连续顶功](collection/continuous-ding.md)
+		- [一码顶](collection/ding-one.md)
+			- [左飞1811](collection/zuofei1811.md)
+			- [声笔简码](collection/shengbijianma.md) 
+		- [二码顶](collection/ding-two.md)
+			- [声笔飞码](collection/shengbifeima.md)
+			- [西风瘦码](collection/xifengshouma.md)
+			- [小兮码](collection/xiaoxima.md)
+			- [灵形速影](collection/lingxingsuying.md)
+			- [leo乱序全形二码顶](collection/leoluanxu.md)
+			- [落萧双拼](collection/luoxiaoshuangpin.md)
+			- [星兮H](collection/xingxih.md)
+		- [三码顶](collection/ding-tree.md)
+			- [左飞三码顶](collection/zuofei-sanmading.md)
+            - [听雨三码顶](collection/tingyu-sanmading.md)
+		- [四码顶](collection/ding-four.md)
+			- [星空键道](collection/xingkong.md) 
+	- [混合顶功](collection/mixed-ding.md)
+		- [二四顶](collection/ding-two-four.md)
+			- [C输入法二四顶](collection/c-ersiding.md)
+		- [四二顶](collection/ding-four-two.md)
+			- [希码顶功动动版](collection/ximadinggong.md)
+		- [二五顶](collection/ding-two-five.md)
+			- [游天雕86五笔](collection/youtiandiao.md)
+	- [其他顶功](collection/miscellany.md)
+		- [TK并击](collection/tk-bingji.md)
+- [制作一个方案](implementation/README.md)
+	- [1. 选择一种风格]
+	- [2. 制作全码表]
+	- [3. 降低码长]
+	- [4. 加入词语]
+	- [5. 发布]
+- [附录](appendix/README.md)
+	- [数学结果的证明](appendix/proof.md)
+	- 汉字的信息熵
